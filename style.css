@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.pic{
+    position: relative;
+    width: 910px;
+    margin: 0 auto;
+    
+}
+li{
+    list-style: none;
+}
+.pic .item{
+    position: absolute;
+    padding: 0 0 10px 0;
+    width: 280px;
+    margin: 10px;
+    border: 1px solid #DFDFDF;
+    background: #FFF;
+    /* opacity: 0; */
+    transition: all .8s;
+}
+.pic .item img{
+    margin: 10px;
+    width: 260px;
+}
+.pic h4{
+    height: 25px;
+    margin: 0 12px;
+    border-bottom: 1px solid #DBDBDB;
+}
+.pic p{
+    font-size: 12px;
+    line-height: 1.8;
+    margin: 10px 15px 0;
+    color: #777371;
+}
+#load{
+    text-align: center;
+    opacity: 0;
+}
