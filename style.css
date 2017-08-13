@@ -12,6 +12,9 @@
 li{
     list-style: none;
 }
+.hidden{
+    visibility: hidden;
+}
 .pic .item{
     position: absolute;
     padding: 0 0 10px 0;
@@ -39,5 +42,5 @@ li{
 }
 #load{
     text-align: center;
-    opacity: 0;
+    visibility: hidden;
 }
